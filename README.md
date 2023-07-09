@@ -4,9 +4,9 @@ This repository contains three node ansible lab setup using vagrant and virtualb
 
 |    Node Type   | Node Name             |  IP Address  | OS Flavor     |
 | ---------------| --------------------- |--------------|---------------|
-| Controller Node| controller.anslab.com | 192.168.10.3 | ubuntu/focal64|
-| managed Node   | managed1.anslab.com   | 192.168.10.4 | ubuntu/focal64|
-| managed Node   | managed2.anslab.com   | 192.168.10.5 | ubuntu/focal64|
+| Controller Node| controller.anslab.com | 192.168.10.3 | ubuntu/jammy64|
+| managed Node   | managed1.anslab.com   | 192.168.10.4 | ubuntu/jammy64|
+| managed Node   | managed2.anslab.com   | 192.168.10.5 | ubuntu/jammy64|
 
 I have written the detailed explanation on how to use the lab in OsTechnix website. You can access it using the below link.
 

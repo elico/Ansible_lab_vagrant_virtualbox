@@ -15,7 +15,9 @@ touch /home/vagrant/.hushlogin
 # 192.168.10.4 managed1.ansible.com managed1
 # 192.168.10.5 managed2.ansible.com managed2
 
-echo -e "192.168.10.3 controller.anslab.com controller\n192.168.10.4 managed1.anslab.com managed1\n192.168.10.5 managed2.anslab.com managed2" >> /etc/hosts
+echo "192.168.10.3 controller.anslab.com controller" >> /etc/hosts
+echo "192.168.10.4 managed1.anslab.com managed1" >> /etc/hosts
+echo "192.168.10.5 managed2.anslab.com managed2" >> /etc/hosts
 
 # Installing necessary packages 
 
