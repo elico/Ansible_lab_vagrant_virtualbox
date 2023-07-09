@@ -2,11 +2,13 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
+  config.ssh.insert_key = false
   
   config.vm.provider "virtualbox" do |rs|
     rs.memory = 2048
     rs.cpus = 2
   end
+
 
   # Will not check for box updates during every startup.
   config.vm.box_check_update = false
